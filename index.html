@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dice Roll Machine</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <div class="main-div">
+    <div class="title">
+      <h1>Dice Roll Machine</h1>
+      <p>Choose method of randomization / Choose seed... TODO<!-- TODO:  --></p>
+      <p>Press the "SINGLE ROLL" button for a single roll or write the number of rolls that you want and press the "RUN" button.</p>
+      <input id="roll-x-times" type="number" name="" value="" placeholder="write number of rolls">
+      <button id="btn-run" type="button" name="button">RUN</button>
+      <button id="btn-roll" type="button" name="button">SINGLE ROLL</button>
+      <hr>
+      </div>
+      <div class="dices">
+        <img id="dice1" class="dice" src="img/white1.png" alt="dice1">
+        <img id="dice2" class="dice" src="img/white2.png" alt="dice2">
+        <img id="dice3" class="dice" src="img/white3.png" alt="dice3">
+        <img id="dice4" class="dice" src="img/white4.png" alt="dice4">
+        <img id="dice5" class="dice" src="img/white5.png" alt="dice5">
+        <img id="dice6" class="dice" src="img/white6.png" alt="dice6">
+      </div>
+      <div class="roll-counter list">
+        <p>Number of rolls: <span id="roll-number">0</span></p>
+      </div>
+      <div class="list">
+        <p id="list-text"></p>
+      </div>
+      <div class="table-div">
+        <table>
+          <tr>
+            <th></th>
+            <th>times</th>
+            <th>%</th>
+          </tr>
+          <tr>
+            <td>1</td>
+            <td id="tDice1"></td>
+            <td id="tDice1%"></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td id="tDice2"></td>
+            <td id="tDice2%"></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td id="tDice3"></td>
+            <td id="tDice3%"></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td id="tDice4"></td>
+            <td id="tDice4%"></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td id="tDice5"></td>
+            <td id="tDice5%"></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td id="tDice6"></td>
+            <td id="tDice6%"></td>
+          </tr>
+        </table>
+        <p>*stats are not updating properly yet</p>
+      </div>
+      <div class="d3-div">
+        <p>D3 graphic representation TODO</p>
+        <!-- TODO:  -->
+      </div>
+  </div>
+
+  <script src="js/index.js" charset="utf-8"></script>
+</body>
+
+</html>
