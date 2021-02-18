@@ -2,4 +2,4 @@
 
 /*TO DO*/
 
-export default function(){runDiceMachine();}
+//export default function(){runDiceMachine();}
